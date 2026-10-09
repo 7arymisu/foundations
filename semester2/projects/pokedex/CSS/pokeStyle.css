@@ -1,0 +1,129 @@
+/* page setup */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+/* navbar */
+header {
+  background-color: #cc0000;
+  padding: 15px;
+  border-bottom: 5px solid #222;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* buttons */
+.button {
+  background-color: white;
+  border: 2px solid #222;
+  border-radius: 10px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background-color: #eee;
+}
+
+/* links */
+a {
+  text-decoration: none;
+  color: #222;
+  font-weight: bold;
+}
+
+/* dropdown menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 180px;
+  border: 2px solid #222;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content a:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* headings */
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  color: #cc0000;
+}
+
+/* paragraphs */
+p {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* table */
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* table header */
+thead {
+  background-color: #cc0000;
+  color: white;
+}
+
+th {
+  padding: 14px;
+  border: 1px solid #999;
+}
+
+/* table cells */
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* alternating rows */
+tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+/* pokemon images */
+img {
+  width: 96px;
+  height: 96px;
+}
